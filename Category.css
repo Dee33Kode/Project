@@ -1,0 +1,105 @@
+.nav_bar {
+    width: 100%;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+.nav {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.nav:hover, .active {
+    color: #FF6767;
+}
+.hero{
+    background-image: url("./Assests/of-bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    padding: 80px 0 0 0;
+}
+.hero h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+.hero p{
+    width: 60%;
+    text-align: center;
+    color: #ffffff;
+    margin: 5px auto;
+}
+.hero p .category{
+    color: red;
+}
+.section1{
+    width: 50%;
+    margin: 60px auto;
+    text-align: center;
+}
+.section1 p{
+    margin: 20px auto;
+}
+
+.category-list{
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    padding: 50px;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: auto 24px 0 0;
+}
+.card-details{  
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-details .title{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-details .info{
+    margin: 5px 0;
+    background-color: #fff;
+    font-size: 16px;
+    color: #959595
+}
+.card-details button{
+    outline: none;
+    border: none;
+    background-color: #ff6767;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 10px 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ratingStar{
+    color: #FBB71C;
+    display: flex;
+    flex-direction: row;
+}

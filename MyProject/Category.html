@@ -11,26 +11,48 @@
 <body>
     <header class="header">
         <div class="container">
-            <img src="Assests/logo.png" alt="" class="logo">
-            <nav class="nav_bar">
-                <a href="home.html" class="nav active">HOME</a>
-                <a href="" class="nav">ABOUT</a>
-                <a href="" class="nav">SHOP</a>
-                <a href="Category.html" class="nav">CATEGORIES</a>
-                <a href="BlogStandard.html" class="nav">BLOG</a>
-                <a href="" class="nav">CONTACT US</a>
-            </nav>
-            <div class="search-box">
-                <input type="text" class="search-input" placeholder="Search">
-                <button class="search-btn"><i class="fas fa-search"></i></button>
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <p class="info-title">Office Address</p>
+                        <p class="info-text">55 Medical Road, USA</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <p class="info-title">Service Hours</p>
+                        <p class="info-text">Everyday, 08 am - 09 pm</p>
+                    </div>
+                </div>
             </div>
-            <div class="icons">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="cart-count">0</span>
+            <div class="search-box">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
             </div>
         </div>
-    </header>
     
+        <nav class="nav_bar">
+          <img src="./Assests/logo.png" alt="" class="logo"/>
+            <a href="home.html" class="nav active">HOME</a>
+            <a href="Category.html" class="nav">CATEGORIES</a>
+            
+            <div class="dropdown">
+              <a href="" class="nav">BLOG</a>
+              <div class="dropdown-menu">
+                  <a href="BlogStandard.html">BLOG STANDARD</a>
+                  <a href="details.html">BLOG DETAILS</a>
+              </div>
+          </div>
+            <a href="signin.html" class="nav">SIGN IN</a>
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
     <div class="hero">
         <h1>Categories</h1>
         <p><span>Home</span> > <span class="category" >Category</span></p>

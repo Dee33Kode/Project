@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="BlogStandard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <p class="info-title">Office Address</p>
+                        <p class="info-text">55 Medical Road, USA</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <p class="info-title">Service Hours</p>
+                        <p class="info-text">Everyday, 08 am - 09 pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    
+        <nav class="nav_bar">
+          <img src="./Assests/logo.png" alt="" class="logo"/>
+            <a href="home.html" class="nav active">HOME</a>
+            <a href="Category.html" class="nav">CATEGORIES</a>
+            
+            <div class="dropdown">
+              <a href="" class="nav">BLOG</a>
+              <div class="dropdown-menu">
+                  <a href="BlogStandard.html">BLOG STANDARD</a>
+                  <a href="details.html">BLOG DETAILS</a>
+              </div>
+          </div>
+            <a href="signin.html" class="nav">SIGN IN</a>
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+  
+    <section class="hero">
+        <h1>Blog Posts</h1>
+    </section>
+    <main>
+        <aside>
+            <input type="text" placeholder="Search...">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="">Auto Parts (1)</a></li>
+                <li><a href="">Brake Discs (1)</a></li>
+                <li><a href="">Engine Parts (1)</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Video</a></li>
+            </ul>    
+            <div class="popular-posts">
+                <h2>Popular Posts</h2>
+                <ul>
+                    <li>
+                        <img src="./Assests/blog-3-370x360 (1).jpg" alt="Blog Post">
+                        <a href="">The Problem With Typefaces on the Web</a>
+                    </li>
+                    <li>
+                        <img src="./Assests/blog-4-370x360 (1).jpg" alt="Blog Post">
+                        <a href="">Mirage Deep Dive Under and Timing Response</a>
+                    </li>
+                    <li>
+                        <img src="./Assests/blog-1-370x360 (1).jpg" alt="Blog Post">
+                        <a href="">But I must explain to you how all this mistaken idea</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="tags">
+                <h2>Tags</h2>
+                <ul>
+                    <li>auto</li>
+                    <li>ecommerce</li>
+                    <li>envato</li>
+                    <li>images</li>
+                    <li>shop</li>
+                    <li>themeforest</li>
+                    <li>vehicle</li>
+                    <li>video</li>
+                    <li>vimeo</li>
+                </ul>
+            </div>
+            <div class="service-banner">
+                <div class="cover">
+                <div class="overlay">
+                    <h2>Need Any <br> <span>Auto Services</span></h2>
+                    <a href="#" class="shop-btn">SHOP NOW <span>→</span></a>
+                </div>
+                </div>
+            </div>
+        </aside>
+        <section class="blog-content">
+            <img src="./Assests/blog-4.jpg" alt="">
+                <section class="blog-content">
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span><i class="fa-solid fa-calendar-days"></i> January 16, 2021</span> |
+                            <span><i class="fa-solid fa-folder"></i> Gallery</span> |
+                            <span>🔖 Envato, Images</span>
+                        </div>
+                        <h2>The Problem With Typefaces on the Web</h2>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium 
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            . Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        </p>
+                        <a href="" class="read-more">Read More →</a>
+                    </article>
+        
+                    <div class="video-container">
+                        <video autoplay loop muted id="bgVideo">
+                            <source src="./Assests/VID-20241012-WA0024.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+                <section class="blog-section">
+                    <div class="blog-content">
+                        <h2>Mirage Deep Dive Under anding Timin Response</h2>
+                        <p class="blog-date">
+                            <span><i class="fa-solid fa-calendar-days"></i> January 15, 2021</span> | <span><i class="fa-solid fa-video"></i> Video</span> | <span><i class="fa-solid fa-video"></i> Vimeo</span>
+                        </p>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                        </p>
+                        <button class="read"> READ MORE</button>
+                    </div>
+                </section>
+                <section class="pics">
+                    <img src="./Assests/blog-3-370x360 (1).jpg" alt="">
+                    <section class="blog-content">
+                        <article class="blog-post">
+                            <div class="post-meta">
+                                <span><i class="fa-solid fa-calendar-days"></i> January 16, 2021</span> |
+                                <span><i class="fa-solid fa-folder"></i> Gallery</span> |
+                                <span> Envato, Images</span>
+                            </div>
+                            <h2>The Problem With Typefaces on the Web</h2>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                . Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            </p>
+                            <a href="" class="read-more">Read More →</a>
+                        </article>
+                    </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Chakta</h3>
+                <p>Sed perspiciatis unde omnis natus error voluptatem accusant doloremque laudantium.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Discount Returns</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Useful</h3>
+                <ul>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Suppliers</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 250 Main Street, 2nd Floor D - Block, New York</p>
+                <p><i class="fas fa-envelope"></i> support@example.com</p>
+                <p><i class="fas fa-phone"></i> +898 - 123 - 456 - 98</p>
+                <div class="payment-icons">
+                    <img src="./Assests/ci.png" alt="Visa">
+                </div>
+            </div>
+        </div>
+    
+        <p class="footer-bottom">Copyright 2025. KlbTheme. All rights reserved</p>
+    </footer>
+</body>
+</html>

@@ -20,11 +20,6 @@
     max-width: 1200px;
 }
 
-.logo {
-    height: 60px;
-    /* width: 210px; */
-}
-
 .contact-info {
     display: flex;
     align-items: center;
@@ -78,26 +73,51 @@
 
 .nav_bar {
     width: 100%;
-    background-color: #cf0f22e3;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding: 20px 20px;
+    gap: 20px;
+    background: #ff3333;
+    padding: 15px 40px;
 }
 
 .nav {
-    font-size: 18px;
-    color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
+    padding: 10px;
 }
 
-.nav:hover, .active {
-    background-color: black;
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 150px;
+    display: none;
     border-radius: 5px;
 }
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+}
 
+.dropdown-menu a:hover {
+    background: #ff3333;
+    color: white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 .icons {
     display: flex;
     align-items: center;
@@ -279,7 +299,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
-    
 }
 .background{
     position: absolute;
@@ -290,9 +309,9 @@
 .logos{
     z-index: 100;
     display: flex;
-    height: 230px;
+    height: 190px;
     padding-top: 70px;
-    padding-left: 250px;
+    padding-left: 355px;
     gap: 10%;
 }
 .con{
@@ -360,19 +379,22 @@
     justify-content: center;
 }
 .product-container{
+    /* background-color: black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
     margin: auto;
+    padding-top: 50px;
 } 
 .product-card {
     position: relative;
     width: 270px;
-    background: #f7f7f7e5;
+    background-color: #fff;
     padding: 15px;
     text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .product-card img {
@@ -436,25 +458,25 @@
     cursor: pointer;
 }
 .view-product{
+    width: 170px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 1px solid gray;
     border-radius: 30px;
     border-width:  3px;
-    border-color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 30px;
+    font-size: 13px;
+    font-weight: 50px;
     background-color: #fff;
     color: #777;
     cursor: pointer;
 }
-.pointer{
+/* .pointer{
     display: flex;
     margin: 7px;
     color: #777;
-}
+} */
 .view-product:hover{
     background-color: #E60000;
     color: #fff;
@@ -677,64 +699,6 @@
     align-items: center;
     justify-content: center;
 }
-/* .ppl {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.imgs img {
-    width: 80px; 
-    height: 80px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 10px; 
-}
-
-.imgs h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.imgs span {
-    font-size: 14px;
-    color: #ff0000;
-    display: block;
-    margin-top: 5px;
-}
-.profile {
-    display: flex;
-    align-items: center;
-    gap: 15px; 
-    margin-bottom: 10px;
-}
-.profile img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.profile-info {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-}
-.profile-info h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0;
-    white-space: nowrap; 
-}
-.profile-info span {
-    font-size: 14px;
-    color: red;
-    margin: 0; 
-    white-space: nowrap;
-} */
 .testimonial-container {
     display: flex;
     justify-content: center;
@@ -742,6 +706,7 @@
     flex-wrap: wrap;
     padding-top: 60px;
 }
+
 
 .testimonial-card {
     background: #fff;
@@ -834,12 +799,11 @@
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
     margin-bottom: 20px; 
 }
 
 .blog-card:hover {
-    transform: translateY(-5px);
+  
 }
 
 .blog-card img {
@@ -900,7 +864,7 @@
     /* padding: 20px 0; */
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .imgs {

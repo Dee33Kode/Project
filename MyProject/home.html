@@ -12,15 +12,13 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="stylesheet" href="./home.js" />
     <title>Chakta-Auto Parts Shop</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-          <img src="./Assests/logo.png" alt="" class="logo"/>
           <div class="contact-info">
               <div class="info-box">
                   <i class="fa-solid fa-location-dot"></i>
@@ -44,12 +42,18 @@
       </div>
   
       <nav class="nav_bar">
+        <img src="./Assests/logo.png" alt="" class="logo"/>
           <a href="home.html" class="nav active">HOME</a>
-          <a href="" class="nav">ABOUT</a>
-          <a href="" class="nav">SHOP</a>
           <a href="Category.html" class="nav">CATEGORIES</a>
-          <a href="BlogStandard.html" class="nav">BLOG</a>
-          <a href="" class="nav">CONTACT US</a>
+          
+          <div class="dropdown">
+            <a href="" class="nav">BLOG</a>
+            <div class="dropdown-menu">
+                <a href="BlogStandard.html">BLOG STANDARD</a>
+                <a href="details.html">BLOG DETAILS</a>
+            </div>
+        </div>
+          <a href="signin.html" class="nav">SIGN IN</a>
           <div class="icons">
               <i class="fa-solid fa-user"></i>
               <i class="fa-solid fa-cart-shopping"></i>
@@ -124,6 +128,7 @@
         </div>
       </div>
     </section>
+
     <!--categories-->
     <div class="popular">
       <h1 class="topic">Popular Categories</h1>
@@ -350,9 +355,8 @@
         </div>
         <button class="view-product">
           VIEW MORE PRODUCTS
-          <div class="pointer">
-          <i class="fa-solid fa-arrow-right"></i>
-          </div>
+          <!-- <div class="pointer">
+          </div> -->
         </button>
     </section>
     <section class="development">
@@ -538,12 +542,12 @@
       </div>
       <div class="tags">
         <div class="imgs">
-            <img src="./Assests/client-1.png" alt="Nissan">
-            <img src="./Assests/client-2.png" alt="Opel">
-            <img src="./Assests/client-3.png" alt="Suzuki">
-            <img src="./Assests/client-4.png" alt="Volvo">
-            <img src="./Assests/client-5.png" alt="Volkswagen">
-            <img src="./Assests/client-6.png" alt="Yamaha">
+            <img src="./Assests/client-1.png" alt="">
+            <img src="./Assests/client-2.png" alt="">
+            <img src="./Assests/client-3.png" alt="">
+            <img src="./Assests/client-4.png" alt="">
+            <img src="./Assests/client-5.png" alt="">
+            <img src="./Assests/client-6.png" alt="">
         </div>
     </div>
   </section>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <img src="./Assests/logo.png" alt="Logo">
+            </div>
+            <h2>Login</h2>
+            <input type="email" id="Email address" placeholder="Email address">
+            <input type="password" id="password" placeholder="password">
+            <button class="button" onclick="login()">Login</button>
+            <p class="footer">Don't have an account? <a href="signin.html">Sign up</a></p>
+        </div>
+        <div class="image-container">
+            <img src="./Assests/of-bg-3.jpg" alt="" class="img">
+        </div>
+    </div>
+
+    <script>
+     function login() {
+        let name = document.getElementById("Email address").value
+        let pass = document.getElementById("password").value
+        
+
+        //Retrieve stored datas
+        let storedUser = localStorage.getItem("Email address")
+        let storedPass = localStorage.getItem("Password");
+
+
+        //Check if entered detail match stored details
+        if (name === storedUser && pass === storedPass){
+            document.getElementById("message")
+            alert("login successful")
+            window.location.href="home.html"
+         } else{
+            alert("invalid credentials")
+        }
+        }
+    </script>
+    </body>
+    </html>

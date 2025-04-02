@@ -134,8 +134,9 @@ body {
 }
 
 .hero {
-    background: url('./MyProject/Assests/breadcrumbs-bg.jpg') no-repeat center;
+    background: url('./MyProject/Assests/breadcrumbs-bg.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 100px 0;
     color: white;

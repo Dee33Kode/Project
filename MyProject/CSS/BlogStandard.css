@@ -134,7 +134,7 @@ body {
 }
 
 .hero {
-    background: url('./MyProject/Assests/breadcrumbs-bg.jpg');
+    background: url('/MyProject/Assests/breadcrumbs-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -336,7 +336,7 @@ aside ul li a:hover{
     display: flex;
     padding-top: 20px;
     background-color: #543B3F;
-    background-image: url("./MyProject/Assests/add-1.jpg");
+    background-image: url("/MyProject/Assests/add-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -136,7 +136,7 @@
     height: 600px;
     display: flex;
     background-color: #543B3F;
-    background-image: url("./Assests/hero-2_1.jpg");
+    background-image: url("/MyProject/Assests/hero-2_1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -295,7 +295,7 @@
     height: 250px;
     display: flex;
     background-color: #543B3F;
-    background-image: url("./Assests/company-bg.jpg");
+    background-image: url("/MyProject/Assests/company-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -494,7 +494,7 @@
     justify-content: center;
     align-items: center;
     background-color: #543B3F;
-    background-image: url("./Assests/newsletter-bg\ \(2\).jpg");
+    background-image: url("/MyProject/Assests/newsletter-bg \(2\).jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat

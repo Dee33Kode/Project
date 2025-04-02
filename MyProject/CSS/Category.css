@@ -126,7 +126,7 @@
 }
 
 .hero{
-    background-image: url("./Assests/of-bg-4.jpg");
+    background-image: url("/MyProject/Assests/of-bg-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;

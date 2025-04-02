@@ -255,7 +255,7 @@ body {
     display: flex;
     padding-top: 20px;
     background-color: #543B3F;
-    background-image: url("./Assests/add-1.jpg");
+    background-image: url("/MyProject/Assests/add-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
